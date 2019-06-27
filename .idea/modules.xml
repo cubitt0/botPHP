@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../botBackend/.idea/botBackend.iml" filepath="$PROJECT_DIR$/../botBackend/.idea/botBackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/botPHP.iml" filepath="$PROJECT_DIR$/.idea/botPHP.iml" />
+    </modules>
+  </component>
+</project>

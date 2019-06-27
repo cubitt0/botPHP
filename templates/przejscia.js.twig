@@ -1,0 +1,12 @@
+B0T.przejscia = [];
+{% for i in przejscia %}
+B0T.przejscia.push({
+    id: {{ i.id }},
+    x: {{ i.x }},
+    y:{{ i.y }},
+    name:"{{ i.name|raw }}",
+    odwiedzona:{{ i.odwiedzona }},
+    glowna:{{ i.glowna }},
+    pvp:{{ i.pvp }}
+})
+{% endfor %}

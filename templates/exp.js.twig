@@ -1,0 +1,6 @@
+{% for i in expowiska %}
+B0T.expowiska.push({
+    mapa:"{{ i.mapa | raw}}",
+    moby:{{ i.moby | raw }}
+})
+{% endfor %}
